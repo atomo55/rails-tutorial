@@ -6,6 +6,7 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+2.5.1
 
 * System dependencies
 
@@ -21,4 +22,10 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+
+## 参考ページとか
+### 丁寧すぎるDocker-composeによるrails5 + MySQL on Dockerの環境構築
+https://qiita.com/azul915/items/5b7063cbc80192343fc0
+
+### Ruby on Rails チュートリアル　実例を使ってRailsを学ぼう
+https://railstutorial.jp/
