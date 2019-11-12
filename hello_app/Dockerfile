@@ -19,5 +19,5 @@ ADD ./Gemfile $APP_ROOT/Gemfile
 ADD ./Gemfile.lock $APP_ROOT/Gemfile.lock
 
 # Gemfileのbundle install
-RUN bundle install
+RUN bundle install --without production
 ADD . $APP_ROOT
