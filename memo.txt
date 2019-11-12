@@ -1,9 +1,0 @@
-// docker-compose 起動
-docker-compose run web rails db:create
-docker-compose up -d
-
-// 丁寧すぎるDocker-composeによるrails5 + MySQL on Dockerの環境構築
-https://qiita.com/azul915/items/5b7063cbc80192343fc0
-
-// dockerのサーバー内に移動
-docker exec -i -t tutorial_web bash
