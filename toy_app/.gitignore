@@ -26,8 +26,4 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-# よく使うコマンドとかのメモ
-memo.txt
-
-# mysqlのボリューム
-/mysql/
+/mysql/*
