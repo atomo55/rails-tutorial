@@ -1,4 +1,26 @@
 # 学習の記録(一番上が最新)
+## 2019/11/29
+第6章スタート。  
+理解はあんまりできていないけどサクサク進めていくぞーって思ったら動かないDockerコンテナに苦労させられる。  
+今回は`bootstrap-sass`とセットでインストールされる`autoprefixer-rails`のgemが見つからないそうな。  
+11/26も最後、GitHubにpushしたら`bootstrap-sass`に脆弱性があるってコトでアラート出たりして苦労したのでRailsチュートリアルって敷居高いなぁって感想。  
+Dockerでやってるからいけないのか。
+
+結局`docker-compose build`してから`docker-compose up`で動いた。  
+Dockerでやってるからトラブるようだ。
+
+参考にした情報によるとGemfileを書き換えたら`docker-compose build`しないといけないらしい。  
+`bundle install`とか`bundle update`って文字列見たら`docker-compose build`するように覚えておこ…。
+
+> dockerでBundler::GemNotFoundが出るときの対処法
+> https://qiita.com/koyo-miyamura/items/5f1d123046917782e111
+
+Railsの学習記録というより、DockerとGitHubの学習記録になってる(；´Д｀)  
+Railsの理解度？実際なにか作ってみないと理解できないです。  
+プログラミングあるある。  
+他人様のソースコード読んで何しているのかは何となくわかってきた。  
+かんたんな不具合の調査とか出来たらグングン伸びそう。
+
 ## 2019/11/26
 第5章スタート。  
 Railsのファイル構造にまだ慣れないので色々探すのに手間取る…。  
