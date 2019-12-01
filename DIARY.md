@@ -2,9 +2,11 @@
 ## 2019/12/01
 第6章修了。  
 6.3が20分ほどで終わったので一気にやっておけばよかったかなぁという気持ち。  
-次も飛ばしていきたいところ。
+次も飛ばしていきたいところ。  
+第6章の最後のほうでGemfileに追加があったので、先日得た学びからbuildを忘れずに実行。
 
-第6章の最後のほうでGemfileに追加があったので、先日得た学びからbuildを忘れずに実行する。
+今日は7.1まで。  
+やる気が湧いたら7章終わらせたいけど、気力が持たない(´・ω・｀)
 
 ## 2019/11/29
 第6章スタート。  
@@ -19,7 +21,7 @@ Dockerでやってるからトラブるようだ。
 参考にした情報によるとGemfileを書き換えたら`docker-compose build`しないといけないらしい。  
 `bundle install`とか`bundle update`って文字列見たら`docker-compose build`するように覚えておこ…。
 
-> dockerでBundler::GemNotFoundが出るときの対処法
+> dockerでBundler::GemNotFoundが出るときの対処法  
 > https://qiita.com/koyo-miyamura/items/5f1d123046917782e111
 
 Railsの学習記録というより、DockerとGitHubの学習記録になってる(；´Д｀)  
